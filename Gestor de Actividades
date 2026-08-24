@@ -34,6 +34,24 @@
         </select>
 
         <button type="submit">Guardar Actividad</button>
+        <div>
+      <label for="correo">Correo del Responsable:</label>
+      <input type="email" id="correo" name="correo" required>
+    </div>
+
+    <script>
+      const formulario = document.getElementById('formulario-registro');
+      const mensajeError = document.getElementById('mensaje-error');
+
+      formulario.addEventListener('submit', function(evento) {
+        if (!formulario.checkValidity()) {
+          evento.preventDefault();
+          mensajeError.style.display = 'block';
+        } else {
+          mensajeError.style.display = 'none';
+        }
+      });
+    </script>
       </form>
     </section>
 
