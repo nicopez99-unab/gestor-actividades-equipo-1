@@ -17,13 +17,3 @@
 - CSS
 - JavaScrip
 
-## instrucciones de ejecución.
-1. Clonar el repositorio.
-2. Abrir la carpeta.
-3. Ejecutar index.html.
-
-## Funcionalidades
-- Registro de usuarios.
-- Gestión de tareas.
-- Reportes.
----------------------------------------------------------------------------------
