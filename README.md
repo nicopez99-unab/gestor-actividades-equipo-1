@@ -8,10 +8,10 @@
 -Nicolas Lopez 
 -Waldemar Valdivia
 ## roles;
--Kathya Peña y lillo - interfaz 
--Iván Mandiola - Registro
--Nicolas Lopez - Listado
--Waldemar Valdivia -  Integración y documentación
+  1. Kathya Peña y lillo - interfaz 
+  2. Iván Mandiola - Registro
+  3. Nicolas Lopez - Listado
+  4. Waldemar Valdivia -  Integración y documentación
 ## Tecnologías
 - HTML
 - CSS
