@@ -1,2 +1,28 @@
 # gestor-actividades-equipo-1
-Desarrollo colaborativo utilizando GitHub Equipo 1
+
+## nombre del proyecto; Desarrollo colaborativo utilizando GitHub Equipo 1
+## objetivo; Demostrar y dominar el flujo de trabajo en git y github
+## integrantes;
+-Kathya Peña y lillo
+-Iván Mandiola
+-Nicolas Lopez 
+-Waldemar Valdivia
+## roles;
+-Kathya Peña y lillo - interfaz 
+-Iván Mandiola - Registro
+-Nicolas Lopez - Listado
+-Waldemar Valdivia -  Integración y documentación
+## Tecnologías
+- HTML
+- CSS
+- JavaScrip
+
+## instrucciones de ejecución.
+1. Clonar el repositorio.
+2. Abrir la carpeta.
+3. Ejecutar index.html.
+
+## Funcionalidades
+- Registro de usuarios.
+- Gestión de tareas.
+- Reportes.
