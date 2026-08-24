@@ -50,6 +50,50 @@
     </section>
   </main>
   <script src="app.js"></script>
+
+<section id="registro-actividades">
+  <h2>Nueva Actividad Académica</h2>
+  
+  <form id="formulario-registro">
+    
+    <div>
+      <label for="nombre-actividad">Nombre de la Actividad (Obligatorio):</label>
+      <input type="text" id="nombre-actividad" name="nombre" required>
+    </div>
+    
+    <div>
+      <label for="desc-actividad">Descripción:</label>
+      <textarea id="desc-actividad" name="descripcion" rows="3"></textarea>
+    </div>
+    
+    <div>
+      <label for="responsable">Responsable (Obligatorio):</label>
+      <input type="text" id="responsable" name="responsable" required>
+    </div>
+
+    <div>
+      <label for="prioridad">Prioridad:</label>
+      <select id="prioridad" name="prioridad">
+        <option value="alta">Alta</option>
+        <option value="media">Media</option>
+        <option value="baja">Baja</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="estado">Estado Inicial:</label>
+      <select id="estado" name="estado">
+        <option value="pendiente">Pendiente</option>
+        <option value="en-proceso">En Proceso</option>
+      </select>
+    </div>
+
+    <button type="submit">Registrar Actividad</button>
+    <p id="mensaje-error" style="color: red; display: none;">Faltan campos obligatorios por llenar.</p>
+
+  </form>
+</section>
+  
   
 </body>
 </html>
