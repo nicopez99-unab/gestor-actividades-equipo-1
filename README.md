@@ -22,6 +22,10 @@
 3. Ejecutar index.html.
 
 ## Funcionalidades
-- Registro de usuarios.
-- Gestión de tareas.
-- Reportes.
+- registrar actividades;
+- indicar nombre y descripción;
+- indicar responsable;
+- asignar prioridad;
+- indicar estado;
+- visualizar las actividades registradas.
+
