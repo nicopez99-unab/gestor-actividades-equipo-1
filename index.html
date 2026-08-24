@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Actividades Académicas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gestor de Actividades Académicas</h1>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Registrar Actividad</h2>
+      <form id="form-actividad">
+        <label for="nombre">Nombre de la actividad:</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" name="descripcion" rows="3"></textarea>
+
+        <label for="responsable">Responsable:</label>
+
+        <!-- Conflicto opcional en este select o en el header -->
+        <input type="text" id="responsable" name="responsable">
+
+        <label for="prioridad">Prioridad:</label>
+        <select id="prioridad" name="prioridad">
+          <option value="Baja">Baja</option>
+          <option value="Media">Media</option>
+          <option value="Alta">Alta</option>
+        </select>
+
+        <button type="submit">Guardar Actividad</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Lista de Actividades</h2>
+      <div id="lista-actividades" class="grid-actividades"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
