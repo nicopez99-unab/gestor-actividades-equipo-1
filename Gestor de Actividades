@@ -10,6 +10,13 @@
   <header>
     <h1>Gestor de Actividades Académicas</h1>
   </header>
+  <nav class="menu-principal">
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Nueva Actividad</a></li>
+      <li><a href="#">Ver Lista</a></li>
+    </ul>
+  </nav>
 
   <main class="container">
     <section class="card">
